@@ -9,7 +9,7 @@ namespace R5T.Smyni.Standard
 {
     public static class IConfigurationBuilderExtensions
     {
-        public static IConfigurationBuilder AddVisualStudioFileOperatorConfiguration(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
+        public static IConfigurationBuilder AddVisualStudioSolutionFileOperatorConfiguration(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
         {
             configurationBuilder.AddDotnetConfiguration(configurationServiceProvider);
 
