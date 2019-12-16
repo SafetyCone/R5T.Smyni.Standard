@@ -4,4 +4,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Smyni.Norsica\source\R5T.Smyni.Norsica\R5T.Smyni.Norsica.csproj" />
+  </ItemGroup>
 </Project>
