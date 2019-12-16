@@ -5,6 +5,8 @@
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Lombardy\source\R5T.Lombardy\R5T.Lombardy.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Smyni.Default\source\R5T.Smyni.Default\R5T.Smyni.Default.csproj" />
     <ProjectReference Include="..\..\..\R5T.Smyni.Norsica\source\R5T.Smyni.Norsica\R5T.Smyni.Norsica.csproj" />
   </ItemGroup>
 </Project>
